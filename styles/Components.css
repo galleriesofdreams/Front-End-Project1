@@ -1,0 +1,50 @@
+input[type=text], 
+input[type=text]:focus {
+  border: 1px solid #1B1C1D;
+  width: 40%;
+  padding: 7px;
+}
+
+input[type=text]:hover {
+  border: 1px solid #767676;
+  width: 40%;
+  padding: 7px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.button, #search, .cat, #months {
+  background-color: #fff;
+  color: #1B1C1D;
+  border: 1px solid #1B1C1D;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #1B1C1D;
+  color: white;
+}
+
+.text {
+  text-align: center;
+  background-color: #e5f8f6;
+  border: 1px solid #1B1C1D;
+  padding: 5px;
+  margin: 5px;
+}
+
+.full_post {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.full_post_heading, .full_post_subheading, .full_post_text {
+  padding: 15px;
+}

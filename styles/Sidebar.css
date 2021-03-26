@@ -1,0 +1,23 @@
+.blog_post {
+    border: 1px solid #1B1C1D;
+    padding: 15px;
+    margin: 15px;
+}
+
+.about, 
+.search, 
+.blog_categories, 
+.popular_posts, 
+.archive, 
+.newsletter, 
+.text_block, 
+.about_text {
+    text-align: center;
+    padding: 15px;
+}
+
+.about_img {
+    border-radius: 50%;
+    margin: 15px;
+    padding: 15px;
+}

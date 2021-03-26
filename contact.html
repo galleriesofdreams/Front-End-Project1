@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>A Personal Blog</title>
+        <link href="styles/Home.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--This is the header with links to the various areas of the blog and to social accounts-->
+        <header>
+            <ul class="nav">
+                <li class="nav"><a href="index.html">HOME</a></li>
+                <li class="nav"><a href="about.html">ABOUT</a></li>
+                <li class="nav"><a href="design.html">DESIGN SYSTEM</a></li>
+                <li class="nav"><a href="contact.html">CONTACT</a></li>
+                <li class="nav"><a href="https://www.facebook.com"><img src="media/fb.png" alt="facebook" width="20"></a></li>
+                <li class="nav"><a href="https://www.instagram.com"><img src="media/ig.png" alt="instagram" width="20"></a></li>
+                <li class="nav"><a href="https://www.twitter.com"><img src="media/twitter.png" alt="twitter" width="20"></a></li>
+                <li class="nav"><a href="https://www.pinterest.com"><img src="media/pinterest.png" alt="pinterest" width="20"></a></li>
+            </ul>
+            <div class="hero">
+                <h1 class="hero_txt">A Personal Blog</h1>
+            </div>
+        </header>
+        <!--From this page, customers/fans can get in touch through a form-->
+        <main>
+            <div class="contact_form">
+            <h1 class="contact_heading">I’d love to hear from you</h1>
+            <div class="contact_text">
+                <p>I can be reached at this email address: <a href="contacts@hotmail.com">contacts@hotmail.com</a>.</p>
+                <p>Alternatively, you can use the following form for business inquiries, to give me feedbacks or just to say hello!</p>
+                <p>Enter your email if you want me to get back to you.</p>
+            </div>
+                <form>
+                    <label class="form_name">Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label class="form_email">E-mail*</label><br>
+                    <input type="text" id="mail" name="mail"><br>
+                    <label class="form_message">Message*</label><br>
+                    <textarea id="form_message" name="message" rows="4" cols="20"></textarea><br>
+                    <button class="button">Send</button>
+                </form>
+            </div>
+        </main>
+        <!--This is the side bar with info, archives, search and newsletter options, posts in evidence etc. -->
+        <aside>
+            <div class="about">
+                <div class="about_img">
+                    <img src="media/me.jpg" alt="an image of the author" width="200px" height="200px" style="border-radius: 50%">
+                </div>
+                <div class="about_text">
+                    <p>Italian expat in Ireland, rock and metal music fan, long time gamer and technology enthusiast. Want to learn more?</p>
+                </div>
+                <a href="BlogPages/about.html"><button class="button">Click here!</button></a>
+            </div>
+            <div class="search">
+                <h2>SEARCH</h2>
+                <form class="form"> 
+                    <input id="search" id="query" name="q" placeholder="Search in this website...">
+                    <button class="button">Search</button>
+                </form>
+            </div>
+            <div class="popular_posts">
+                <h2>POPULAR POSTS</h2>
+                <img class="text_img" src="media/foxsq.jpg" alt="fox image" width="200" height="200">
+                <div class="text_block">
+                    <a href="Fox&Grapes.html" alt="Fox and Grapes fable">The Fox & the Grapes</a>
+                </div>
+                <img class="text_img" src="media/wolfsq.jpg" alt="wolf image" width="200" height="200">
+                <div class="text_block_2">
+                    <a href="WolfSheep.html" alt="Wolf and Sheep fable">The Wolves, the Sheep and the Ram</a>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h2>NEWSLETTER</h2>
+                    <form">
+                        <input class="text" id="name" name="name" placeholder="Full Name"><br>
+                        <input class="text" id="mail" name="mail" placeholder="Email address"><br>
+                        <button class="button">Subscribe</button>
+                    </form>
+            </div>
+            <div class="blog_categories">
+                <h2>CATEGORIES</h2>
+                    <div class="cat">
+                        <a href="blog/search/label/fables" alt="search label fables">Fables</a><br>
+                    </div>
+                    <div class="cat">
+                        <a href="blog/search/label/design" alt="search label design">Design</a><br>
+                    </div>
+                    <div class="cat">
+                        <a href="blog/search/label/placeholder" alt="search label placeholder">Placeholder</a><br>
+                    </div>
+            </div>
+            <div class="archive">
+                <h2>ARCHIVE</h2>
+                    <label for="archive">Select Month: </label>
+                    <select name="months" id="months">
+                    <option value="March 2021">March 2021</option>
+                    <option value="February 2021">February 2021</option>
+                    </select>
+            </div>
+        </aside>
+        <!--This is the footer with copyright info-->
+        <footer>
+            <div class="copyright">
+                <p>2021 &#169 PATRIZIA ROHR</p>
+            </div>
+        </footer>
+    </body>
+</html>

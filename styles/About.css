@@ -1,0 +1,19 @@
+.about_page {
+    align-content: center;
+    border: 1px solid #1B1C1D;
+}
+
+.about_heading {
+    text-align: center;
+}
+
+.about_page_text {
+    padding: 15px;
+}
+
+.about_page_img {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+}

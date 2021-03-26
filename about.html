@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>A Personal Blog</title>
+        <link href="styles/Home.css" rel="stylesheet">
+    </head>
+    <body>
+    <!--This is the header with links to the various areas of the blog and to social accounts-->
+    <header>
+        <ul class="nav">
+            <li class="nav"><a href="index.html">HOME</a></li>
+            <li class="nav"><a href="about.html">ABOUT</a></li>
+            <li class="nav"><a href="design.html">DESIGN SYSTEM</a></li>
+            <li class="nav"><a href="contact.html">CONTACT</a></li>
+            <li class="nav"><a href="https://www.facebook.com"><img src="media/fb.png" alt="facebook" width="20"></a></li>
+            <li class="nav"><a href="https://www.instagram.com"><img src="media/ig.png" alt="instagram" width="20"></a></li>
+            <li class="nav"><a href="https://www.twitter.com"><img src="media/twitter.png" alt="twitter" width="20"></a></li>
+            <li class="nav"><a href="https://www.pinterest.com"><img src="media/pinterest.png" alt="pinterest" width="20"></a></li>
+        </ul>
+        <div class="hero">
+            <h1 class="hero_txt">A Personal Blog</h1>
+        </div>
+    </header>
+    <!--This page is a short introduction to myself-->
+    <main>
+        <div class="about_page">
+            <h1 class="about_heading">About the creator</h1>
+                <div class="about_page_text"><p>My name is Patrizia and I have been interested in web design and development from the moment I started navigating the internet.</p>
+                <p>I started building HTML webpages a long time ago at the age of 16, when many of today's techniques were not yet developed and CSS was brand new!</p>
+                <p>I graduated in Multimedia Communications and Technologies at my hometown's University with the goal in mind to become a professional web developer, but due to a series of circumstances it wasn't meant to be at the time.</p>
+                <p>I moved to Ireland from Italy and, after 12 years, the current pandemic arrived. I was out of work for a while, and I decided that I wanted to see if I was able to go back to the roots of my passions and my studies.</p>
+                <p>Scouring the web, I found Udacity and the Front-End developer course, and I decided to enroll straight away.</p>
+                <p>I have found that, although many things have changed in the web development world since the last time I visited, the foundations remain, and the course has helped me so far to refresh my knowledge and learn about what changed in the meantime!</p>
+                <p>I can't wait to see what the rest of the course has in store for me and I am looking forward to being able to make a career out of my passion.</p>
+                </div>
+                <div class="about_page_img">
+                    <img src="media/thank you 2bn.jpg" alt="an image of the author" width="680">
+                </div>
+                <a href="index.html"><button class="button">Go back</button></a>
+        </div>
+    </main>
+    <!--This is the side bar with info, archives, search and newsletter options, posts in evidence etc. -->
+    <aside>
+        <div class="about">
+            <div class="about_img">
+                <img src="media/me.jpg" alt="an image of the author" width="200px" height="200px" style="border-radius: 50%">
+            </div>
+            <div class="about_text">
+                <p>Italian expat in Ireland, rock and metal music fan, long time gamer and technology enthusiast. Want to learn more?</p>
+            </div>
+            <a href="BlogPages/about.html"><button class="button">Click here!</button></a>
+        </div>
+        <div class="search">
+            <h2>SEARCH</h2>
+            <form class="form"> 
+                <input id="search" id="query" name="q" placeholder="Search in this website...">
+                <button class="button">Search</button>
+            </form>
+        </div>
+        <div class="popular_posts">
+            <h2>POPULAR POSTS</h2>
+            <img class="text_img" src="media/foxsq.jpg" alt="fox image" width="200" height="200">
+            <div class="text_block">
+                <a href="Fox&Grapes.html" alt="Fox and Grapes fable">The Fox & the Grapes</a>
+            </div>
+            <img class="text_img" src="media/wolfsq.jpg" alt="wolf image" width="200" height="200">
+            <div class="text_block_2">
+                <a href="WolfSheep.html" alt="Wolf and Sheep fable">The Wolves, the Sheep and the Ram</a>
+            </div>
+        </div>
+        <div class="newsletter">
+            <h2>NEWSLETTER</h2>
+                <form action="/action_page.php">
+                    <input class="text" id="name" name="name" placeholder="Full Name"><br>
+                    <input class="text" id="mail" name="mail" placeholder="Email address"><br>
+                    <button class="button">Subscribe</button>
+                </form>
+        </div>
+        <div class="blog_categories">
+            <h2>CATEGORIES</h2>
+                <div class="cat">
+                    <a href="blog/search/label/fables" alt="search label fables">Fables</a><br>
+                </div>
+                <div class="cat">
+                    <a href="blog/search/label/design" alt="search label design">Design</a><br>
+                </div>
+                <div class="cat">
+                    <a href="blog/search/label/placeholder" alt="search label placeholder">Placeholder</a><br>
+                </div>
+        </div>
+        <div class="archive">
+            <h2>ARCHIVE</h2>
+                <label for="archive">Select Month: </label>
+                <select name="months" id="months">
+                <option value="March 2021">March 2021</option>
+                <option value="February 2021">February 2021</option>
+                </select>
+        </div>
+    </aside>
+    <!--This is the footer with copyright info-->
+        <footer>
+            <div class="copyright">
+                <p>2021 &#169 PATRIZIA ROHR</p>
+            </div>
+        </footer>
+    </body>
+</html>
